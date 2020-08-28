@@ -1,0 +1,10 @@
+version: "3"
+services:
+        rust:
+                image: rust:latest
+                container_name: rustdemo
+                volumes:
+                - .:/usr/src/rustdemo
+                stdin_open: true 
+                tty: true
+                working_dir: /usr/src/rustdemo
