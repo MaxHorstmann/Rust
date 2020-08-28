@@ -4,7 +4,7 @@ services:
                 image: rust:latest
                 container_name: rustdemo
                 volumes:
-                - .:/usr/src/rustdemo
+                - ./rustdemo:/usr/src/rustdemo
                 environment:
                 - USER
                 stdin_open: true 

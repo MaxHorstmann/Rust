@@ -10,7 +10,6 @@ $ docker attach rustdemo
 
 # Run it
 ```
-$ rustc main.rs
-$ ./main
+$ cargo run
 ```
 
